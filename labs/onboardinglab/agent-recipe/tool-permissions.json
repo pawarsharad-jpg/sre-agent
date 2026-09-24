@@ -8,6 +8,8 @@
     "FileSearch",
     "GrepSearch",
     "read_skill_file",
+    "CreateFile",
+    "RunInTerminal",
     "system-mcp-monitor/*"
   ],
   "ask": [
@@ -15,9 +17,7 @@
   ],
   "deny": [
     "RunKubectlWriteCommand",
-    "RunInTerminal",
     "Terminal",
-    "CreateFile",
     "CreateDirectory",
     "SaveFileToBlob",
     "ReplaceStringInFile",

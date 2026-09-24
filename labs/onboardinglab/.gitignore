@@ -4,3 +4,4 @@
 *.pyc
 main.json
 main.parameters.resolved.json
+.azure

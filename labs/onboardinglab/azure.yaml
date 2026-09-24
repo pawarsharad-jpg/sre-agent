@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: onboardinglab
+metadata:
+    template: azd-init@1.34.1
+services:
+    app:
+        project: ticketingapp-source/app
+        host: containerapp
+        language: js
+resources:
+    app:
+        type: host.containerapp
+        uses:
+            - test
+        port: 80
+    test:
+        type: db.postgres
