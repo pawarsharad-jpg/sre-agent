@@ -9,6 +9,9 @@
     "GrepSearch",
     "read_skill_file",
     "CreateFile",
+    "CreateDirectory",
+    "ReplaceStringInFile",
+    "MultiReplaceStringInFile",
     "RunInTerminal",
     "system-mcp-monitor/*"
   ],
@@ -18,9 +21,6 @@
   "deny": [
     "RunKubectlWriteCommand",
     "Terminal",
-    "CreateDirectory",
     "SaveFileToBlob",
-    "ReplaceStringInFile",
-    "MultiReplaceStringInFile"
   ]
 }
