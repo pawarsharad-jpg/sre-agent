@@ -1,0 +1,26 @@
+{
+  "allow": [
+    "GetAzCliHelp",
+    "RunAzCliReadCommands",
+    "QueryAppInsightsUsingAppId",
+    "ReadFile",
+    "ListDir",
+    "FileSearch",
+    "GrepSearch",
+    "read_skill_file",
+    "CreateFile",
+    "RunInTerminal",
+    "system-mcp-monitor/*"
+  ],
+  "ask": [
+    "RunAzCliWriteCommands"
+  ],
+  "deny": [
+    "RunKubectlWriteCommand",
+    "Terminal",
+    "CreateDirectory",
+    "SaveFileToBlob",
+    "ReplaceStringInFile",
+    "MultiReplaceStringInFile"
+  ]
+}
